@@ -2,143 +2,143 @@
 
 ## Variables list
 
-*subject.id : identifier of the tested subject, between 1 and 30
+- subject.id : identifier of the tested subject, between 1 and 30
 
-*activity : type of activity done by the subject and generating data (6 possible values : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+- activity : type of activity done by the subject and generating data (6 possible values : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 The 68 following variables are features read or calculated from the measuring device, a smartphone (Samsung Galaxy S II). They are explained by group bellow.
 
-*timeBodyAccelerometer-mean-X
+- timeBodyAccelerometer-mean-X
 
-*timeBodyAccelerometer-mean-Y
+- timeBodyAccelerometer-mean-Y
 
-*timeBodyAccelerometer-mean-Z
+- timeBodyAccelerometer-mean-Z
 
-*timeBodyAccelerometer-std-X
+- timeBodyAccelerometer-std-X
 
-*timeBodyAccelerometer-std-Y
+- timeBodyAccelerometer-std-Y
 
-*timeBodyAccelerometer-std-Z
+- timeBodyAccelerometer-std-Z
 
-*timeGravityAccelerometer-mean-X
+- timeGravityAccelerometer-mean-X
 
-*timeGravityAccelerometer-mean-Y
+- timeGravityAccelerometer-mean-Y
 
-*timeGravityAccelerometer-mean-Z
+- timeGravityAccelerometer-mean-Z
 
-*timeGravityAccelerometer-std-X
+- timeGravityAccelerometer-std-X
 
-*timeGravityAccelerometer-std-Y
+- timeGravityAccelerometer-std-Y
 
-*timeGravityAccelerometer-std-Z
+- timeGravityAccelerometer-std-Z
 
-*timeBodyAccelerometerJerk-mean-X
+- timeBodyAccelerometerJerk-mean-X
 
-*timeBodyAccelerometerJerk-mean-Y
+- timeBodyAccelerometerJerk-mean-Y
 
-*timeBodyAccelerometerJerk-mean-Z
+- timeBodyAccelerometerJerk-mean-Z
 
-*timeBodyAccelerometerJerk-std-X
+- timeBodyAccelerometerJerk-std-X
 
-*timeBodyAccelerometerJerk-std-Y
+- timeBodyAccelerometerJerk-std-Y
 
-*timeBodyAccelerometerJerk-std-Z
+- timeBodyAccelerometerJerk-std-Z
 
-*timeBodyGyroscope-mean-X
+- timeBodyGyroscope-mean-X
 
-*timeBodyGyroscope-mean-Y
+- timeBodyGyroscope-mean-Y
 
-*timeBodyGyroscope-mean-Z
+- timeBodyGyroscope-mean-Z
 
-*timeBodyGyroscope-std-X
+- timeBodyGyroscope-std-X
 
-*timeBodyGyroscope-std-Y
+- timeBodyGyroscope-std-Y
 
-*timeBodyGyroscope-std-Z
+- timeBodyGyroscope-std-Z
 
-*timeBodyGyroscopeJerk-mean-X
+- timeBodyGyroscopeJerk-mean-X
 
-*timeBodyGyroscopeJerk-mean-Y
+- timeBodyGyroscopeJerk-mean-Y
 
-*timeBodyGyroscopeJerk-mean-Z
+- timeBodyGyroscopeJerk-mean-Z
 
-*timeBodyGyroscopeJerk-std-X
+- timeBodyGyroscopeJerk-std-X
 
-*timeBodyGyroscopeJerk-std-Y
+- timeBodyGyroscopeJerk-std-Y
 
-*timeBodyGyroscopeJerk-std-Z
+- timeBodyGyroscopeJerk-std-Z
 
-*timeBodyAccelerometerMagnitude-mean
+- timeBodyAccelerometerMagnitude-mean
 
-*timeBodyAccelerometerMagnitude-std
+- timeBodyAccelerometerMagnitude-std
 
-*timeGravityAccelerometerMagnitude-mean
+- timeGravityAccelerometerMagnitude-mean
 
-*timeGravityAccelerometerMagnitude-std
+- timeGravityAccelerometerMagnitude-std
 
-*timeBodyAccelerometerJerkMagnitude-mean
+- timeBodyAccelerometerJerkMagnitude-mean
 
-*timeBodyAccelerometerJerkMagnitude-std
+- timeBodyAccelerometerJerkMagnitude-std
 
-*timeBodyGyroscopeMagnitude-mean
+- timeBodyGyroscopeMagnitude-mean
 
-*timeBodyGyroscopeMagnitude-std
+- timeBodyGyroscopeMagnitude-std
 
-*timeBodyGyroscopeJerkMagnitude-mean
+- timeBodyGyroscopeJerkMagnitude-mean
 
-*timeBodyGyroscopeJerkMagnitude-std
+- timeBodyGyroscopeJerkMagnitude-std
 
-*frequencyBodyAccelerometer-mean-X
+- frequencyBodyAccelerometer-mean-X
 
-*frequencyBodyAccelerometer-mean-Y
+- frequencyBodyAccelerometer-mean-Y
 
-*frequencyBodyAccelerometer-mean-Z
+- frequencyBodyAccelerometer-mean-Z
 
-*frequencyBodyAccelerometer-std-X
+- frequencyBodyAccelerometer-std-X
 
-*frequencyBodyAccelerometer-std-Y
+- frequencyBodyAccelerometer-std-Y
 
-*frequencyBodyAccelerometer-std-Z
+- frequencyBodyAccelerometer-std-Z
 
-*frequencyBodyAccelerometerJerk-mean-X
+- frequencyBodyAccelerometerJerk-mean-X
 
-*frequencyBodyAccelerometerJerk-mean-Y
+- frequencyBodyAccelerometerJerk-mean-Y
 
-*frequencyBodyAccelerometerJerk-mean-Z
+- frequencyBodyAccelerometerJerk-mean-Z
 
-*frequencyBodyAccelerometerJerk-std-X
+- frequencyBodyAccelerometerJerk-std-X
 
-*frequencyBodyAccelerometerJerk-std-Y
+- frequencyBodyAccelerometerJerk-std-Y
 
-*frequencyBodyAccelerometerJerk-std-Z
+- frequencyBodyAccelerometerJerk-std-Z
 
-*frequencyBodyGyroscope-mean-X
+- frequencyBodyGyroscope-mean-X
 
-*frequencyBodyGyroscope-mean-Y
+- frequencyBodyGyroscope-mean-Y
 
-*frequencyBodyGyroscope-mean-Z
+- frequencyBodyGyroscope-mean-Z
 
-*frequencyBodyGyroscope-std-X
+- frequencyBodyGyroscope-std-X
 
-*frequencyBodyGyroscope-std-Y
+- frequencyBodyGyroscope-std-Y
 
-*frequencyBodyGyroscope-std-Z
+- frequencyBodyGyroscope-std-Z
 
-*frequencyBodyAccelerometerMagnitude-mean
+- frequencyBodyAccelerometerMagnitude-mean
 
-*frequencyBodyAccelerometerMagnitude-std
+- frequencyBodyAccelerometerMagnitude-std
 
-*frequencyBodyAccelerometerJerkMagnitude-mean
+- frequencyBodyAccelerometerJerkMagnitude-mean
 
-*frequencyBodyAccelerometerJerkMagnitude-std
+- frequencyBodyAccelerometerJerkMagnitude-std
 
-*frequencyBodyGyroscopeMagnitude-mean
+- frequencyBodyGyroscopeMagnitude-mean
 
-*frequencyBodyGyroscopeMagnitude-std
+- frequencyBodyGyroscopeMagnitude-std
 
-*frequencyBodyGyroscopeJerkMagnitude-mean
+- frequencyBodyGyroscopeJerkMagnitude-mean
 
-*frequencyBodyGyroscopeJerkMagnitude-std
+- frequencyBodyGyroscopeJerkMagnitude-std
 
 ##Features explanation
 
@@ -152,8 +152,8 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 The set of variables that were estimated from these signals are: 
-*mean(): Mean value
-*std(): Standard deviation
+- mean(): Mean value
+- std(): Standard deviation
 
 
 ## Notes: 
