@@ -161,6 +161,10 @@ The set of variables that were estimated from these signals are:
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
+##Transformations
+
+Original features values are transformed during the execution of the run_analysis.R script : the result is the average of each feature for each activity and each subject.
+
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
 ## License:
